@@ -9,15 +9,13 @@ private:
 public:
     A () {
 
-}
-/*void f () {
+    }
+
+    virtual void f () {
     cout << "A::f()\n";
-}*/
-virtual void f () {
-    cout << "A::f()\n";
-}
- void g () {
+    }
+    void g () {
     cout << "A::g()\n";
-}
+    }
 
 };
